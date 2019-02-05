@@ -4,12 +4,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace DevOpsToday.MSTesting.Test
 {
   [TestClass]
-  public class HomeContollerTests
+  public class HomeControllerTests
   {
       [TestMethod]
       public void Test_IndexAction()
       {
-        var sut = new HomeContoller();
+        var sut = new HomeController();
 
         Assert.IsNotNull(sut.Index());
       }
@@ -17,7 +17,7 @@ namespace DevOpsToday.MSTesting.Test
       [TestMethod]
       public void Test_PrivacyAction()
       {
-        var sut = new HomeContoller();
+        var sut = new HomeController();
 
         Assert.IsNotNull(sut.Privacy());
       }
