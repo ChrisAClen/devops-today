@@ -21,13 +21,5 @@ namespace DevOpsToday.MSTesting.Test
 
         Assert.IsNotNull(sut.Privacy());
       }
-
-      [TestMethod]
-      public void Test_ErrorAction()
-      {
-        var sut = new HomeContoller();
-
-        Assert.IsNotNull(sut.Error());
-      }
   }
 }
