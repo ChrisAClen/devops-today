@@ -1,4 +1,4 @@
-using DevOpsToday.Controllers;
+using DevOpsToday.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DevOpsToday.MSTesting.Tests
